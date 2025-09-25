@@ -1,0 +1,87 @@
+* {
+    background-color: #44444E;
+    color: #D3DAD9;
+    font-family: "Open Sans", serif;
+    font-size: 12pt;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+.study-button {
+    border-radius: 10px;
+    border: solid 1px #37353E;
+    color: #D3DAD9;
+    background-color: #37353E;
+}
+
+.study-button:hover {
+    border: solid 1px #37353E;
+    color: #37353E;
+    background-color: #D3DAD9;
+}
+
+.inactive-button {
+    border-color:transparent;
+    color: gray;
+    background-color: darkgray;
+}
+
+.inactive-button:hover {
+    border-color: transparent;
+    color: gray;
+    background-color: darkgray;
+}
+
+.edit-pair-input {
+    border: solid 1px #D3DAD9;
+    color: #D3DAD9;
+    background-color: #37353E;
+    padding: 2px;
+}
+
+#set-preview-section {
+    border: dotted 2px transparent;
+    width: fit-content;
+}
+
+#set-preview-section:hover {
+    border-color: #37353E;
+}
+
+#set-label {
+    display: inline-block;
+}
+
+#set-select {
+    display: none;
+}
+
+#study-flashcard-viewport {
+    display: grid;
+    place-items: center;
+}
+
+#study-flashcard {
+    height:300px;
+    width: 300px;
+    border: solid 2px #D3DAD9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#study-flashcard-buttons {
+    border: solid 2px transparent;
+}
